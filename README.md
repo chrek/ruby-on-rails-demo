@@ -1,24 +1,24 @@
 # ruby-on-rails-demo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A demo for Rails
+----------------
 
-Things you may want to cover:
+## What has been implemented
+* Configuration of Bundler Install Path - to allow bundler to install gems in the ./vendor/bundle/ project subdirectory
 
-* Ruby version
+To test the site locally:
 
-* System dependencies
+From the root of project run the commands:
 
-* Configuration
+1. `bundle install`
+2. `bundle exec rails serve`
 
-* Database creation
+<hr>
 
-* Database initialization
+## References
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. [start-up.house](https://start-up.house/en/blog/articles/install-ruby-on-rails)
+2. [jekyllrb.com](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/)
+3. [undler.io](https://bundler.io/guides/rails.html)
+4. [www.sharmaprakash.com.np](https://www.sharmaprakash.com.np/rails/generate-an-application-with-a-specific-rails-version/)
+5. [phoenixnap.com](https://phoenixnap.com/kb/how-to-install-yarn-ubuntu)
